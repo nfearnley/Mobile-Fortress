@@ -1,7 +1,7 @@
 [gd_scene load_steps=5 format=4 uid="uid://cfx584jhmo4h4"]
 
 [ext_resource type="Script" path="res://tilemap_test.gd" id="1_fgjv4"]
-[ext_resource type="Texture2D" uid="uid://bg1m62xyvof18" path="res://_assets/Diceforce_assets/Tiles/Tiles.png" id="1_uplh1"]
+[ext_resource type="Texture2D" uid="uid://c6bi5ajyko7oy" path="res://Textures/Tiles.png" id="1_uplh1"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_p3aeb"]
 resource_name = "Tiles"
