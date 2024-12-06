@@ -1,8 +1,11 @@
-[gd_scene load_steps=2 format=3 uid="uid://2806swbl5cxd"]
+[gd_scene load_steps=3 format=3 uid="uid://2806swbl5cxd"]
 
 [ext_resource type="Texture2D" uid="uid://cpjotsx3usyn" path="res://Textures/fighter.png" id="1_3c4ye"]
+[ext_resource type="Script" path="res://Minions/fighter.gd" id="1_mec50"]
 
 [node name="Fighter" type="Node2D"]
+script = ExtResource("1_mec50")
 
 [node name="Fighter" type="Sprite2D" parent="."]
+rotation = 1.5708
 texture = ExtResource("1_3c4ye")
