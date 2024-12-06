@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://bpv6hvmjsac0m"]
+
+[ext_resource type="Script" path="res://Towers/pointer.gd" id="1_edagf"]
+
+[node name="Tower" type="Node2D"]
+script = ExtResource("1_edagf")
+
+[node name="Polygon2D" type="Polygon2D" parent="."]
+polygon = PackedVector2Array(10, 0, -8, 7, -5, 1, -9, -8)
