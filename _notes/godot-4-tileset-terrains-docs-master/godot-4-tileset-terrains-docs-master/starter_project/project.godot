@@ -10,12 +10,11 @@ config_version=5
 
 [application]
 
-config/name="Mobile Fortress"
-run/main_scene="res://root.tscn"
-config/features=PackedStringArray("4.3", "Forward Plus")
+config/name="Terrain Starter Project"
+config/features=PackedStringArray("4.0", "GL Compatibility")
 config/icon="res://icon.svg"
 
-[editor]
+[rendering]
 
-version_control/plugin_name="GitPlugin"
-version_control/autoload_on_startup=true
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"

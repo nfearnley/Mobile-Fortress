@@ -6,7 +6,7 @@ extends Node2D
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
-	for i in range(2000):
+	for i in range(20):
 		self.add_child(bomber_minion.instantiate())
 		self.add_child(fighter_minion.instantiate())
 		self.add_child(drone_minion.instantiate())
